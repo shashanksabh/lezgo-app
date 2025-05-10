@@ -14,7 +14,7 @@ import json
 # Initialize the OpenAI model
 openai = OpenAI(
     model_name="gpt-3.5-turbo-instruct",
-    openai_api_key="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"  # Be careful with your API key, don't expose it in your code.
+    openai_api_key="####"  # Be careful with your API key, don't expose it in your code.
 )
 
 template = """
